@@ -45,9 +45,7 @@
 
     <!-- HERO / FIRST SECTION -->
     <section>
-      <div
-        class="grid grid-cols-2 items-center px-24 py-16 border-b border-gray-200"
-      >
+      <div class="grid grid-cols-2 items-center px-24 py-16">
         <!-- Left Column -->
         <div class="px-4">
           <h1 class="text-8xl font-light text-zinc-950">
@@ -70,12 +68,12 @@
           </div>
           <div class="flex space-x-4">
             <button
-              class="px-6 py-3 bg-blue-600 text-white font-thin rounded-full hover:bg-blue-500 transition-colors"
+              class="px-4 py-2 border border-zinc-950 bg-blue-600 text-white font-thin rounded-full hover:bg-blue-500 transition-colors"
             >
               For students
             </button>
             <button
-              class="px-6 py-3 bg-lime-400 text-black font-thin rounded-full hover:bg-lime-300 transition-colors"
+              class="px-4 py-2 bg-lime-400 border border-zinc-950 text-black font-thin rounded-full hover:bg-lime-300 transition-colors"
             >
               For Tutors
             </button>
@@ -84,15 +82,17 @@
 
         <!-- Right Column -->
         <div class="flex justify-center px-4">
-          <div class="border border-gray-300 rounded-3xl overflow-hidden">
-            <img src="https://hcnpeiris.github.io/creativechemistry.github.io//img/banner.jpg" class="lgrayscale" alt="Banner" />
+          <div class="border border-zinc-950 rounded-3xl overflow-hidden">
+            <img src="/img/banner.jpg" class="lgrayscale" alt="Banner" />
           </div>
         </div>
       </div>
-      <div class="grid grid-cols-8 gap-6 py-12 px-24 bg-zinc-950">
+      <div
+        class="grid grid-cols-8 gap-6 py-12 px-24 bg-zinc-100 border-b border-zinc-950"
+      >
         <!-- First Column -->
         <div class="col-span-2 flex items-start">
-          <h2 class="text-4xl font-light text-zinc-50">
+          <h2 class="text-4xl font-light text-zinc-950">
             Start Your <br />Yourney
           </h2>
         </div>
@@ -102,17 +102,17 @@
             <img
               src="https://images.pexels.com/photos/1462630/pexels-photo-1462630.jpeg"
               alt="Journey Image 2"
-              class="w-full aspect-square object-cover h-40 rounded-2xl shadow"
+              class="w-full aspect-square object-cover h-40 w-40 rounded-2xl border border-zinc-400 shadow"
             />
           </div>
           <!-- Caption -->
           <div class="flex flex-col justify-start">
-            <p class="font-semibold text-blue-500 text-lg">I am a student</p>
-            <p class="text-zinc-400 font-light">
+            <p class="font-semibold text-blue-500 text-2xl">I am a student</p>
+            <p class="text-zinc-700 text-sm mb-2 font-light">
               interested in learning new concept to achieve my goals
             </p>
             <a
-              class="self-start inline-block w-auto px-3 py-1 mt-3 text-sm border border-blue-500 text-zinc-50 font-thin rounded-full hover:bg-blue-500 transition-colors"
+              class="self-start inline-block w-auto px-3 py-1 mt-3 text-sm border bg-blue-600 border-zinc-400 text-zinc-50 font-thin rounded-full hover:bg-blue-500 transition-colors"
             >
               Register as students
             </a>
@@ -123,17 +123,17 @@
             <img
               src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg"
               alt="Journey Image 2"
-              class="w-full aspect-square object-cover h-40 rounded-2xl shadow"
+              class="w-full aspect-square object-cover h-40 w-40 rounded-2xl border border-zinc-400 shadow"
             />
           </div>
           <!-- Caption -->
           <div class="flex flex-col justify-start">
-            <p class="font-semibold text-lime-400 text-lg">I am a tutor</p>
-            <p class="text-zinc-400 font-light">
+            <p class="font-semibold text-lime-500 text-2xl">I am a tutor</p>
+            <p class="text-zinc-700 text-sm mb-2 font-light">
               interested in sharing my knowledge and helping others succeed
             </p>
             <a
-              class="self-start inline-block w-auto px-3 py-1 mt-3 text-sm border border-lime-400 text-zinc-50 font-thin rounded-full hover:bg-lime-400 hover:text-black transition-colors"
+              class="self-start inline-block w-auto px-3 py-1 mt-3 text-sm bg-lime-400 border border-zinc-50 text-zinc-950 font-thin rounded-full hover:bg-lime-400 hover:text-black transition-colors"
             >
               Register as tutor
             </a>
@@ -148,7 +148,7 @@
           Which area do you want to learn
         </p> -->
         <h2 class="text-7xl font-light mb-4">Categories</h2>
-        <p class="text-gray-500 text-base sm:text-lg mb-12 max-w-2xl mx-auto">
+        <p class="text-gray-500 font-light mb-12 max-w-2xl mx-auto">
           We let you <span class="text-lime-500">study</span> or
           <span class="text-blue-600">teach</span> only what you want, instead
           of going through all the concepts. Choose a category, then pick the
@@ -158,55 +158,55 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 group">
           <!-- Card -->
           <div
-            class="bg-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
+            class="bg-lime-400 border border-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
           >
-            <span class="text-3xl font-light text-zinc-50">General</span>
-            <span class="text-gray-500 text-sm mt-1"
+            <span class="text-5xl font-light text-zinc-50">General</span>
+            <span class="text-zinc-500 text-sm mt-1"
               >Description of the first metric</span
             >
           </div>
 
           <div
-            class="bg-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
+            class="bg-blue-500 border border-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
           >
-            <span class="text-3xl font-light text-zinc-50">Inorganic</span>
-            <span class="text-gray-500 text-sm mt-1"
+            <span class="text-5xl font-light text-zinc-50">Inorganic</span>
+            <span class="text-zinc-700 text-sm mt-1"
               >Description of the second metric</span
             >
           </div>
 
           <div
-            class="bg-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
+            class="bg-lime-400 border border-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
           >
-            <span class="text-3xl font-light text-zinc-50">Organic</span>
-            <span class="text-gray-500 text-sm mt-1"
+            <span class="text-5xl font-light text-zinc-50">Organic</span>
+            <span class="text-zinc-500 text-sm mt-1"
               >Description of the third metric</span
             >
           </div>
 
           <div
-            class="bg-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
+            class="bg-blue-500 border border-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
           >
-            <span class="text-3xl font-light text-zinc-50">Physical</span>
-            <span class="text-gray-500 text-sm mt-1"
+            <span class="text-5xl font-light text-zinc-50">Physical</span>
+            <span class="text-zinc-700 text-sm mt-1"
               >Description of the fourth metric</span
             >
           </div>
 
           <div
-            class="bg-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
+            class="bg-lime-400 border border-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
           >
-            <span class="text-3xl font-light text-zinc-50">Environmental</span>
-            <span class="text-gray-500 text-sm mt-1"
+            <span class="text-5xl font-light text-zinc-50">Environmental</span>
+            <span class="text-zinc-500 text-sm mt-1"
               >Description of the fifth metric</span
             >
           </div>
 
           <div
-            class="bg-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
+            class="bg-blue-500 border border-zinc-950 p-8 rounded-lg flex flex-col items-center text-center transition-all duration-300 group-hover:blur-xs group-hover:opacity-100 hover:!blur-none hover:!opacity-100 hover:scale-105"
           >
             <span class="text-3xl font-light text-zinc-50">Industrial</span>
-            <span class="text-gray-500 text-sm mt-1"
+            <span class="text-zinc-700 text-sm mt-1"
               >Description of the sixth metric</span
             >
           </div>
